@@ -12,7 +12,7 @@
 
         <ScrollView
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_height="match_parent"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
@@ -23,9 +23,9 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="@dimen/side_margin_default"
-                android:layout_marginEnd="@dimen/side_margin_default"
+                android:layout_marginBottom="@dimen/side_margin_default"
                 android:text="@{viewModel.message}"
-                android:textAlignment="center"
+                android:gravity="center_horizontal"
                 android:textSize="@dimen/message_fragment_text_size" />
 
         </ScrollView>
