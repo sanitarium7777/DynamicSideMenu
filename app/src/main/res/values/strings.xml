@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Dynamic Side Menu</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Vasyl Alifanov</string>
+    <string name="nav_header_subtitle">sanitarium7777@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="drawer_open">Open navigation drawer</string>
+    <string name="drawer_close">Close navigation drawer</string>
+    <string name="sub_menu_title">Items from JSON</string>
+    <string name="error_text">Items from JSON</string>
+</resources>
